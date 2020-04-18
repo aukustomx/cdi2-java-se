@@ -12,5 +12,4 @@ public class LogProducer {
     public Logger createLogger(InjectionPoint injectionPoint) {
         return LogManager.getLogger(injectionPoint.getMember().getDeclaringClass().getName());
     }
-
 }
